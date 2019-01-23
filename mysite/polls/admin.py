@@ -13,7 +13,6 @@ class QuestionAdmin(admin.ModelAdmin):
 class ChoiceInline(admin.TabularInline):
     model = Choice
     extra = 3
-
 admin.site.register(Question, QuestionAdmin)
 
 
